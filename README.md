@@ -1,1 +1,1 @@
-# tictactoe, android game
+# TicTacToe, android game
