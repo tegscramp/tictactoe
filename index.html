@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="manifest" href="/manifest.webmanifest">
+</head>
+
+<body>
+    <div class="holder">
+        <div class="player_01">
+           <div class="box">
+                 Player 1
+           </div>
+        </div>
+        <ul id="container">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="player_02">
+            <div class="box">
+                Player 2
+            </div>
+        </div>
+        <div id="win_state">
+           <div class="center">
+                Player <span id="numWin"></span><br /><b class="win">win</b>
+           </div>
+        </div>
+    </div>
+    <script src='js.js'></script>
+</body>
+
+</html>
